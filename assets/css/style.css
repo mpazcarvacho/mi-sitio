@@ -1,41 +1,40 @@
 /* font-family: 'Oxygen', sans-serif;
 font-family: 'Press Start 2P', cursive; */
-
-p{
-   font-family:  'Oxygen', sans-serif;
-   font-weight: 400;
-   color: #rgb(55, 0, 71);
+p {
+  font-family: 'Oxygen', sans-serif;
+  font-weight: 400;
+  color: #rgb(55, 0, 71);
 }
 
-h1{
+h1 {
   font-family: 'Oxygen', sans-serif;
   font-weight: 700;
   font-size: 45px;
 }
 
-h2{
-     font-family:  'Oxygen', sans-serif;
-     font-weight: 700;
-     color: #rgb(33, 7, 41);
+h2 {
+  font-family: 'Oxygen', sans-serif;
+  font-weight: 700;
+  color: #rgb(33, 7, 41);
 }
 
 /* #experiencia{
   display: inline-block;
 } */
-#experiencia img{
+#experiencia img {
   max-height: 80%;
   width: auto;
 }
 
-#experiencia h5, p{
+#experiencia h5, p {
   margin-top: 20px;
 }
 
-.logo-texto{
+.logo-texto {
   font-family: 'Press Start 2P', cursive;
 }
 
-.hero-section{
+.hero-section {
   margin-top: 4vw;
   background-image: url("../img/background.jpg");
   background-size: cover;
@@ -46,12 +45,18 @@ h2{
 }
 
 .borde-abajo:after {
-    content: ""; /* This is necessary for the pseudo element to work. */
-    display: block; /* This will put the pseudo element on its own line. */
-    margin: 0 auto; /* This will center the border. */
-    width: 30%; /* Change this to whatever width you want. */
-    padding-top: 20px; /* This creates some space between the element and the border. */
-    border-bottom: 3px solid black; /* This creates the border. Replace black with whatever color you want. */
+  content: "";
+  /* This is necessary for the pseudo element to work. */
+  display: block;
+  /* This will put the pseudo element on its own line. */
+  margin: 0 auto;
+  /* This will center the border. */
+  width: 30%;
+  /* Change this to whatever width you want. */
+  padding-top: 20px;
+  /* This creates some space between the element and the border. */
+  border-bottom: 3px solid black;
+  /* This creates the border. Replace black with whatever color you want. */
 }
 
 /* .carousel-control-prev-icon,
@@ -62,9 +67,7 @@ h2{
   background-size: 100%, 100%;
   background-image: none;
 } */
-
-.carousel-control-next-icon:after
-{
+.carousel-control-next-icon:after {
   content: '>';
   font-size: 55px;
   color: black;
@@ -76,14 +79,14 @@ h2{
   color: black;
 }
 
-.height-fija{
-  height:70%;
+.height-fija {
+  height: 70%;
 }
 
-.works{
+.works {
   background-color: rgb(96, 62, 107);
 }
 
-.works .row{
-  height:25%;
+.works .row {
+  height: 25%;
 }
