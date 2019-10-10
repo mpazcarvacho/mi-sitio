@@ -1,4 +1,4 @@
-body{
+body {
   font-family: 'Oxygen', sans-serif;
   font-weight: 400;
 }
@@ -83,11 +83,11 @@ h2 {
   height: 25%;
 }
 
-footer i{
+footer i {
   font-size: 55px;
 }
 
-footer a{
+footer a {
   text-decoration: none;
   color: white;
 }
@@ -105,9 +105,8 @@ a:hover {
   color: rgb(96, 62, 107);
 }
 
-
 @media (min-width: 359px) {
-  .hero-section{
+  .hero-section {
     padding-top: 30px;
   }
 }

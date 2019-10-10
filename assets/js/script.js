@@ -1,24 +1,23 @@
 $(document).ready(function() {
 
-  $("a").click(function(event){
+  $("a").click(function(event) {
     if (this.hash == "#sobre-mi") {
 
-        event.preventDefault();
-        var gato = this.hash;
+      event.preventDefault();
+      var gato = this.hash;
 
-        $("html, body").animate({
-          scrollTop: $(gato).offset().top - 90
-        }, 800, function(){
-          window.location.hash = gato;
-        });
-    }
-    else if (this.hash !== ""){
+      $("html, body").animate({
+        scrollTop: $(gato).offset().top - 90
+      }, 800, function() {
+        window.location.hash = gato;
+      });
+    } else if (this.hash !== "") {
       event.preventDefault();
       var gato = this.hash;
 
       $("html, body").animate({
         scrollTop: $(gato).offset().top - 60
-      }, 800, function(){
+      }, 800, function() {
         window.location.hash = gato;
       });
     }
@@ -28,5 +27,5 @@ $(document).ready(function() {
 
   $('.carousel').carousel({
     interval: false
-});
+  });
 });
