@@ -1,5 +1,4 @@
 $(document).ready(function() {
-  alert("hrhr");
 
   $("a").click(function(event){
     if (this.hash == "#sobre-mi") {

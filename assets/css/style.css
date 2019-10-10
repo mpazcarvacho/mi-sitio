@@ -83,6 +83,29 @@ h2 {
   height: 25%;
 }
 
+footer i{
+  font-size: 55px;
+}
+
+footer a{
+  text-decoration: none;
+  color: white;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+  color: rgb(96, 62, 107);
+}
+
+
 @media (min-width: 359px) {
   .hero-section{
     padding-top: 30px;
