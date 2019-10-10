@@ -1,5 +1,10 @@
 /* font-family: 'Oxygen', sans-serif;
 font-family: 'Press Start 2P', cursive; */
+body{
+  font-family: 'Oxygen', sans-serif;
+  font-weight: 400;
+}
+
 p {
   font-family: 'Oxygen', sans-serif;
   font-weight: 400;
@@ -18,9 +23,6 @@ h2 {
   color: #rgb(33, 7, 41);
 }
 
-/* #experiencia{
-  display: inline-block;
-} */
 #experiencia img {
   max-height: 80%;
   width: auto;
@@ -59,14 +61,6 @@ h2 {
   /* This creates the border. Replace black with whatever color you want. */
 }
 
-/* .carousel-control-prev-icon,
-.carousel-control-next-icon {
-  height: 100px;
-  width: 100px;
-  outline: black;
-  background-size: 100%, 100%;
-  background-image: none;
-} */
 .carousel-control-next-icon:after {
   content: '>';
   font-size: 55px;
@@ -89,4 +83,14 @@ h2 {
 
 .works .row {
   height: 25%;
+}
+
+@media (min-width: 576px) {
+  body {
+    background: blue;
+  }
+
+  h1 {
+    color: red;
+  }
 }
