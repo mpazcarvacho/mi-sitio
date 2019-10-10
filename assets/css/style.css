@@ -1,5 +1,3 @@
-/* font-family: 'Oxygen', sans-serif;
-font-family: 'Press Start 2P', cursive; */
 body{
   font-family: 'Oxygen', sans-serif;
   font-weight: 400;
@@ -85,12 +83,8 @@ h2 {
   height: 25%;
 }
 
-@media (min-width: 576px) {
-  body {
-    background: blue;
-  }
-
-  h1 {
-    color: red;
+@media (min-width: 359px) {
+  .hero-section{
+    padding-top: 30px;
   }
 }
