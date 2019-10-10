@@ -77,5 +77,13 @@ h2{
 }
 
 .height-fija{
-  height:27em;
+  height:70%;
+}
+
+.works{
+  background-color: rgb(96, 62, 107);
+}
+
+.works .row{
+  height:25%;
 }
