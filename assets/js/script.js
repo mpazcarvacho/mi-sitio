@@ -1,6 +1,6 @@
-$(function(){
+$(function() {
 
-  $("a").click(function(event){
+  $("a").click(function(event) {
     if (this.hash !== "") {
       event.preventDefault();
 
@@ -8,7 +8,7 @@ $(function(){
 
       $("html, body").animate({
         scrollTop: $(gato).offset().top
-      }, 800, function(){
+      }, 800, function() {
         window.location.hash = gato;
       });
     }
